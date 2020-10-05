@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image Denosing</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <style>
+      #mainall{
+         margin: auto;
+
+      }
+      body{
+         background-color: silver;
+      }
+
+   </style>
+</head>
+   <body>
+      <div class="mainall">
+      	<h1>Convert Image to Excel</h1>
+      	<h4>The converted files will be deleted after 5 Minutes</h4>
+      	<br>
+         <form action = "/uploader" method = "POST" 
+            enctype = "multipart/form-data">
+            <input type = "file" name = "file" />
+            <input type = "submit" value="Convert" />
+            <br>
+            <h4>If the file looks bit Crazy. Open in Google Sheet</h4>
+         </form>   
+      </div>
+   </body>
+</html>
